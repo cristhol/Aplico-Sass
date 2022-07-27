@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Caveat&family=Fascinate&family=Fascinate+Inline&family=Josefin+Sans:wght@100&family=League+Gothic&family=Pacifico&family=Patrick+Hand&family=Permanent+Marker&family=Poiret+One&family=Rubik+Moonrocks&family=Shadows+Into+Light&display=swap");
+/*font-family: 'Bangers', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Fascinate', cursive;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Shadows Into Light', cursive;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.contenedor {
+  background: #4ECDC4;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #556270, #4ECDC4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Bangers", cursive;
+  min-height: 100%;
+  width: 100%;
+}
+.contenedor header .navbar {
+  background-color: -webkit-linear-gradient(to right, #556270, #4ECDC4);
+  /* Chrome 10-25, Safari 5.1-6 */
+}
+.contenedor .jumbotron {
+  background: #4ECDC4;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #556270, #4ECDC4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 0;
+  background-image: url(../img/portadahome.png);
+  background-position: center;
+}
+.contenedor .jumbotron h1 {
+  text-align: center;
+  color: #4ECDC4;
+  text-shadow: 2px 2px 10px #556270;
+  animation: tituloJumbotron 2s ease 6s infinite alternate;
+}
+@keyframes tituloJumbotron {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.contenedor .main {
+  text-align: justify;
+  line-height: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+.contenedor .main .contenedorSubtitulo1 h3 {
+  padding: 20px;
+  text-align: left;
+  text-shadow: 2px 2px 10px #556270;
+  color: #4ECDC4;
+  font-size: 30px;
+}
+.contenedor .main .contenedorSubtitulo1 p {
+  color: #556270;
+  height: 100%;
+}
+.contenedor .main .contenedorSubtitulo1 p:hover {
+  color: aqua;
+  transition: 2s;
+  text-shadow: 2px 2px 10px #556270;
+}
+.contenedor .footer {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+}
+.contenedor .footer .redes i {
+  font-size: 35px;
+  text-align: center;
+  color: #556270;
+  letter-spacing: 20px;
+  padding: 5px;
+}
+.contenedor .footer .redes #color:hover {
+  color: #4ECDC4;
+}
+.contenedor .footer .redes #color2:hover {
+  color: #4ECDC4;
+}
+.contenedor .footer .redes #color3:hover {
+  color: #4ECDC4;
+}
+.contenedor .footer .redes #color4:hover {
+  color: #4ECDC4;
+}
+.contenedor .footer .copiryght {
+  text-align: left;
+  color: #4ECDC4;
+  text-shadow: 2px 2px 10px #4ECDC4;
+  padding: 20px;
+}
+.contenedor .footer .subir {
+  height: 30px;
+  width: 30px;
+  background-color: #4ECDC4;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #556270;
+  border: 50%;
+  border-radius: 30%;
+  box-shadow: 0 0 10px darkslategrey;
+}
+
+/*news*/
+.tituloNews {
+  color: #4ECDC4;
+  text-shadow: 2px 2px 10px #556270;
+  text-align: center;
+  padding: 10px;
+}
+
+.container-fluid .row .art h3 {
+  text-align: center;
+  font-size: 30px;
+  color: #4ECDC4;
+  text-shadow: 2px 2px 10px #556270;
+}
+.container-fluid .row .art p {
+  color: #4ECDC4;
+  text-shadow: 2px 2px 10px #556270;
+  font-size: 18px;
+  text-align: justify;
+}
+.container-fluid .row .art2 {
+  color: #556270;
+  text-shadow: 2px 2px 10px #4ECDC4;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=estilos.css.map */
