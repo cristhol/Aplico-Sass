@@ -162,12 +162,32 @@ html {
     }
     
 }
+//maps - incio
 
+$headings: (
+    /*Declaramos nuestro mapa*/
+    h1:3em,
+    h2:2em,
+    h3:1em
+    );
+
+/*Creamos el bucle para usar los valores del mapa*/
+
+@each $title, $size in $headings {
+    .band--#{$title} {
+        font-size: $size;
+    }
+    
+}
+
+
+
+//maps -fin
 
 /*news*/
 
 .tituloNews {
-    font-size: 30px;
+    font-size: map-get($headings, h1);
     color:  $color1;
     text-shadow: 2px 2px 10px $color2;
     text-align: center;
@@ -297,27 +317,7 @@ html {
     
 }
 
-//maps - incio
 
-$headings: (
-    /*Declaramos nuestro mapa*/
-    h1:3em,
-    h2:2em,
-    h3:1em
-    );
-
-/*Creamos el bucle para usar los valores del mapa*/
-
-@each $title, $size in $headings {
-    .band--#{$title} {
-        font-size: $size;
-    }
-    
-}
-$h1: map-get($map: $headings, $key: h1);
-
-
-//maps -fin
 
 
 

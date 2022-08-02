@@ -132,9 +132,22 @@ html {
   box-shadow: 0 0 10px darkslategrey;
 }
 
+/*Creamos el bucle para usar los valores del mapa*/
+.band--h1 {
+  font-size: 3em;
+}
+
+.band--h2 {
+  font-size: 2em;
+}
+
+.band--h3 {
+  font-size: 1em;
+}
+
 /*news*/
 .tituloNews, .contacto .contactoItem1, .tituloVideo, .tituloGaleria, .tituloMusic, .tituloBand {
-  font-size: 30px;
+  font-size: 3em;
   color: #4ECDC4;
   text-shadow: 2px 2px 10px #556270;
   text-align: center;
@@ -223,19 +236,6 @@ html {
   color: #4ECDC4;
   transform: translateY(10px);
   transition-delay: 0.2s;
-}
-
-/*Creamos el bucle para usar los valores del mapa*/
-.band--h1 {
-  font-size: 3em;
-}
-
-.band--h2 {
-  font-size: 2em;
-}
-
-.band--h3 {
-  font-size: 1em;
 }
 
 /*# sourceMappingURL=estilos.css.map */
