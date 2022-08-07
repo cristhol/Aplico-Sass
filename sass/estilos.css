@@ -25,41 +25,34 @@ html {
 .contenedor {
   background: #4ECDC4;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #556270, #4ECDC4);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "Bangers", cursive;
   padding-top: 55px;
 }
-.contenedor header .navbar {
-  background-color: -webkit-linear-gradient(to right, #556270, #4ECDC4);
-  /* Chrome 10-25, Safari 5.1-6 */
-}
-.contenedor .jumbotron {
-  background: #4ECDC4;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #556270, #4ECDC4);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 0;
-  background-image: url(../img/portadahome.png);
-  background-position: center;
-}
-.contenedor .jumbotron h1 {
-  text-align: center;
+.contenedor .navbar {
+  font-size: 20px;
   color: #4ECDC4;
-  text-shadow: 2px 2px 10px #556270;
-  animation: tituloJumbotron 2s ease 6s infinite alternate;
 }
-@keyframes tituloJumbotron {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.contenedor .navbar .nav-brand {
+  font-size: 18px;
+  color: #4ECDC4;
+}
+.contenedor .body_style {
+  color: #4ECDC4;
+}
+.contenedor .body_style h1 {
+  font-size: 60px;
+  text-shadow: 2px 2px 5px #4ECDC4;
+}
+.contenedor .body_style p {
+  padding: 20px;
+  text-align: justify;
+  text-shadow: 2px 2px 5px #556270;
+}
+.contenedor .body_style img {
+  background-size: cover;
 }
 .contenedor .main {
   width: 100%;
@@ -147,7 +140,7 @@ html {
 
 /*news*/
 .tituloNews, .contacto .contactoItem1, .tituloVideo, .tituloGaleria, .tituloMusic, .tituloBand {
-  font-size: 3em;
+  font-size: 30px;
   color: #4ECDC4;
   text-shadow: 2px 2px 10px #556270;
   text-align: center;
@@ -223,19 +216,12 @@ html {
   margin: 10px;
   background-color: #556270;
 }
-.contacto .contactoItem2 .boton {
-  background-color: darkgray;
+.contacto .contactoItem2 .btn-primary {
+  background-color: #556270;
   font-size: 18px;
   padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px darkslategrey;
+  box-shadow: 0 0 10px #4ECDC4;
 }
-.contacto .contactoItem2 .boton:hover {
-  background-color: #556270;
-  box-shadow: 0 0 10px #4ECDC4, 0 0 40px #4ECDC4, 0 0 80px #4ECDC4;
+.contacto .contactoItem2 .btn-primary:hover {
   color: #4ECDC4;
-  transform: translateY(10px);
-  transition-delay: 0.2s;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */

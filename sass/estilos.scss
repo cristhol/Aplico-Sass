@@ -40,40 +40,29 @@ html {
     font-family: 'Bangers', cursive;
     padding-top: 55px;
 
-    header {
-        .navbar {
-            background-color: -webkit-linear-gradient(to right, #556270, #4ECDC4);
-            /* Chrome 10-25, Safari 5.1-6 */
+    .navbar {
+        font-size: 20px;
+        color: #4ECDC4;
+        
+        .nav-brand {
+            font-size: 18px;
+            color: $color1;
         }
     }
-
-
-    .jumbotron {
-        background: $color1;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, $color2, $color1);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, $color2, $color1);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        border-radius: 0;
-        background-image: url(../img/portadahome.png);
-        background-position: center;
-
+    .body_style{
+        color: $color1;
         & h1 {
-            text-align: center;
-            color: $color1;
-            text-shadow: 2px 2px 10px $color2;
-            animation: tituloJumbotron 2s ease 6s infinite alternate;
+            font-size: 60px;
+            text-shadow: 2px 2px 5px $color1;
         }
+        & p{
+            padding: 20px;
+            text-align: justify;
+            text-shadow: 2px 2px 5px $color2;
+        }
+        & img {
+        background-size: cover;
 
-        @keyframes tituloJumbotron {
-            0% {
-                opacity: 0;
-            }
-
-            100% {
-                opacity: 1;
-            }
         }
     }
     
@@ -187,7 +176,7 @@ $headings: (
 /*news*/
 
 .tituloNews {
-    font-size: map-get($headings, h1);
+    font-size: 30px;
     color:  $color1;
     text-shadow: 2px 2px 10px $color2;
     text-align: center;
@@ -299,19 +288,14 @@ $headings: (
             margin: 10px;
             background-color: $color2;
         }
-        .boton {
-            background-color: darkgray;
+        .btn-primary {
+            background-color: $color2;
             font-size: 18px;
             padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px $color3;
+            box-shadow: 0 0 10px $color1;
         }
-        .boton:hover {
-            background-color: $color2;
-            box-shadow: 0 0 10px $color1, 0 0 40px $color1, 0 0 80px $color1;
-            color: $color1;
-            transform: translateY(10px);
-            transition-delay: 0.2s;
+        .btn-primary:hover{
+            color:#4ECDC4;
         }
     }
     
